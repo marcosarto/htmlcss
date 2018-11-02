@@ -2,6 +2,7 @@ body{
     font-family: 'Courier New', Courier, monospace;
     font-size: medium;
     background-color: #b5a789;
+    margin: 0px;
 }
 
 #tableContainer{
@@ -15,9 +16,10 @@ body{
 
 #header{
     background-color: #675c47;
-    margin: 10px;
+    margin: 10px 10px 0px 10px;
     padding: 10px;
-    border: #efe5d0 solid 3px;
+    color: #efe5d0;
+    text-align: center;
 }
 
 #main{
@@ -25,27 +27,40 @@ body{
     vertical-align: top;
     background-color: #efe5d0;
     padding: 10px;
+    width: 50%;
 }
 
 #sidebar{
     display: table-cell;
     vertical-align: top;
     background-color: #efe5d0;
-    float: right;
     padding: 10px;
+    width: 30%;
 }
 
 #footer{
     background-color: #675c47;
-    margin: 10px;
+    margin: 0px 10px 10px 10px;
     padding: 10px;
-    border: #efe5d0 solid 3px;
-    clear: right;
+    color: #efe5d0;
+    text-align: center;
 }
 
 a:link{
     color: #b76666;
     text-decoration: none;
     border-bottom: thin dotted #b76666;
+}
+
+#nvigation{
+    display: table-cell;
+    vertical-align: top;
+    background-color: #efe5d0;
+    padding: 10px;
+    width: 20%;
+}
+
+h2{
+    color: #b20000;
 }
 
